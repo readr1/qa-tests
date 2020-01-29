@@ -1,8 +1,6 @@
 package stepDefs;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
 import net.thucydides.core.annotations.Steps;
 import steps.ApiSteps;
 
@@ -36,4 +34,33 @@ public class ApiStepDefs {
     }
 
 
+    @And("^I add a new product with the following (\\w), (\\w) and (\\w)$")
+    public void iAddANewProductWithTheFollowingIdNameAndPrice(String id, String name, String price) {
+        System.out.println("THIS HAPPENED");
+        
+    }
+
+    @And("^I see the product is visible when I view all products$")
+    public void iSeeTheProductIsVisibleWhenIViewAllProducts() {
+    }
+
+    @When("^I request the products details using its product (\\w)$")
+    public void iRequestTheProductsDetailsUsingItsProductCode(String id) {
+    }
+
+    @Then("^I receive the details of the product$")
+    public void iReceiveTheDetailsOfTheProduct() {
+    }
+
+    @Then("^I receive the details of the product and can see the (\\w) is now (\\w)$")
+    public void iReceiveTheDetailsOfTheProductAndCanSeeTheTypeIsNowValue(String type, String value) {
+    }
+
+    @When("^I delete the products using its product (\\w)$")
+    public void iDeleteTheProductsUsingItsProductCode(String code) {
+    }
+
+    @Then("^I see the product is not visible when I view all products$")
+    public void iSeeTheProductIsNotVisibleWhenIViewAllProducts() {
+    }
 }

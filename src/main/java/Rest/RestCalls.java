@@ -1,7 +1,5 @@
 package Rest;
 
-import io.restassured.path.json.JsonPath;
-
 import static io.restassured.RestAssured.*;
 
 public class RestCalls {
