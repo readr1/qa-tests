@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6ed00c7-2a32-42ef-8c61-e68bfc7bd804" name="Default Changelist" comment="" />
+    <list default="true" id="d6ed00c7-2a32-42ef-8c61-e68bfc7bd804" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rest/RestCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rest/RestCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ApiStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ApiStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rest/RestCalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rest/RestCalls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/qa-tests-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/qa-tests.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/api-test-features.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/api-test-features.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ApiStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/ApiStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -21,8 +47,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WwO6AFN7WOpuzIEDNtgAst3140" />
   <component name="ProjectViewState">
@@ -32,9 +58,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepDefs" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -50,18 +77,21 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Cucumber java.Scenario: Get all products">
-    <configuration name="Feature: api-test-features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create and Get a product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/api-test-features.feature" />
       <option name="GLUE" value="stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="qa-tests" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: api-test-features" />
+      <option name="NAME_FILTER" value="^Create and Get a product$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create and Get a product$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create and Get a product" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -81,6 +111,7 @@
       <option name="NAME_FILTER" value="^Get all products$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get all products$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Get all products" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -93,52 +124,16 @@
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stepDefs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stepDefs" />
-      <option name="MAIN_CLASS_NAME" value="stepDefs.Runner" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.cucumber" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Cucumber java.Scenario: Get all products" />
-      <item itemvalue="Cucumber java.Feature: api-test-features" />
-      <item itemvalue="JUnit.cucumber" />
-      <item itemvalue="JUnit.Runner" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Get all products" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber java.Feature: api-test-features" />
-        <item itemvalue="JUnit.cucumber" />
+        <item itemvalue="Cucumber java.Scenario: Create and Get a product" />
       </list>
     </recent_temporary>
   </component>
@@ -160,14 +155,19 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1580062239721" />
-    <state x="140" y="49" width="1084" height="663" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580082183787">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="186" y="32" width="1084" height="663" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580337854905">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="186" y="32" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337854905" />
     <state x="140" y="49" width="1084" height="663" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1580082183787" />
     <state x="391" y="201" width="640" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580074179228">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="391" y="201" width="640" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1580074179228" />
+    <state x="680" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580337800164">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="680" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337800164" />
     <state x="473" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580075103886">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -180,21 +180,25 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="497" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1580080332304" />
-    <state width="1253" height="181" key="GridCell.Tab.0.bottom" timestamp="1580243141167">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom" timestamp="1580337891032">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
     <state width="1253" height="181" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580243141167" />
-    <state width="1253" height="181" key="GridCell.Tab.0.center" timestamp="1580243141166">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1809" height="288" key="GridCell.Tab.0.center" timestamp="1580337891032">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.center/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
     <state width="1253" height="181" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580243141166" />
-    <state width="1253" height="181" key="GridCell.Tab.0.left" timestamp="1580243141166">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1809" height="288" key="GridCell.Tab.0.left" timestamp="1580337891032">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.left/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
     <state width="1253" height="181" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580243141166" />
-    <state width="1253" height="181" key="GridCell.Tab.0.right" timestamp="1580243141167">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="1809" height="288" key="GridCell.Tab.0.right" timestamp="1580337891032">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.right/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
     <state width="1253" height="181" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580243141167" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1580243141140">
       <screen x="67" y="27" width="1299" height="741" />
@@ -216,9 +220,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1299.741@67.27.1299.741" timestamp="1580072933499" />
-    <state x="199" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1580243139714">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="253" y="24" width="1024" height="741" key="SettingsEditor" timestamp="1580335094165">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="253" y="24" key="SettingsEditor/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580335094165" />
     <state x="199" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1580243139714" />
     <state x="488" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1580075046503">
       <screen x="67" y="27" width="1299" height="741" />
@@ -228,13 +233,15 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="67" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1580243109717" />
-    <state x="469" y="321" width="490" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1580245494838">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="639" y="443" width="490" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1580335106842">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="639" y="443" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580335106842" />
     <state x="469" y="321" width="490" height="151" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1580245494838" />
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1580077221593">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="512" y="235" width="960" height="965" key="run.anything.popup" timestamp="1580336796060">
+      <screen x="65" y="24" width="1855" height="1056" />
     </state>
+    <state x="512" y="235" width="960" height="965" key="run.anything.popup/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580336796060" />
     <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1580077221593" />
   </component>
 </project>
