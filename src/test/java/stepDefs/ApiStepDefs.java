@@ -1,10 +1,10 @@
 package stepDefs;
 
+
 import io.cucumber.java.en.*;
 import net.thucydides.core.annotations.Steps;
 import steps.ApiSteps;
 
-import java.io.IOException;
 import java.util.logging.Logger;
 
 public class ApiStepDefs {
@@ -15,8 +15,8 @@ public class ApiStepDefs {
     @Steps
     ApiSteps apiSteps = new ApiSteps();
 
-    @Given("^I have access to the Sensyne test API$")
-    public void ICanAccessTheApi(){
+    @Given("^I have access to the Sensyne test API")
+    public void ICanAccessTheApi() {
         //If the service had a health check endpoint I'd check it here, as it doesn't I'm leaving this method
         //empty for now.
     }
@@ -28,39 +28,46 @@ public class ApiStepDefs {
     }
 
     //Assertions
-    @Then("I receive a list of all products containing an name, product code and price")
+    @Then("^I receive a list of all products containing an name, product code and price")
     public void iReceiveAListOfAllProductsContainingAnNameProductCodeAndPrice() {
         apiSteps.compareResponseToJson("defaultProducts");
     }
 
 
-    @And("^I add a new product with the following (\\w), (\\w) and (\\w)$")
-    public void iAddANewProductWithTheFollowingIdNameAndPrice(String id, String name, String price) {
-        System.out.println("THIS HAPPENED");
-        
+    @And("I add a new product with a {string} and {string}")
+    public void iAddANewProductWithTheFollowingIdNameAndPrice(String name, String price) {
+        apiSteps.addProduct(name, Double.parseDouble(price));
     }
 
-    @And("^I see the product is visible when I view all products$")
+    @And("I see the product is visible when I view all products")
     public void iSeeTheProductIsVisibleWhenIViewAllProducts() {
     }
 
-    @When("^I request the products details using its product (\\w)$")
+    @When("I request the products details using its product {string}")
     public void iRequestTheProductsDetailsUsingItsProductCode(String id) {
     }
 
-    @Then("^I receive the details of the product$")
+    @Then("I receive the details of the product")
     public void iReceiveTheDetailsOfTheProduct() {
     }
 
-    @Then("^I receive the details of the product and can see the (\\w) is now (\\w)$")
+    @Then("I receive the details of the product and can see the {string} is now {string}")
     public void iReceiveTheDetailsOfTheProductAndCanSeeTheTypeIsNowValue(String type, String value) {
     }
 
-    @When("^I delete the products using its product (\\w)$")
+    @When("I delete the products using its product {string}")
     public void iDeleteTheProductsUsingItsProductCode(String code) {
     }
 
-    @Then("^I see the product is not visible when I view all products$")
+    @Then("I see the product is not visible when I view all products")
     public void iSeeTheProductIsNotVisibleWhenIViewAllProducts() {
     }
+
+    @When("I delete the product {string}")
+    public void iDeleteTheProduct(String name) {
+        apiSteps.deleteProduct(
+                apiSteps.getProductId(name)
+        );
+    }
 }
+

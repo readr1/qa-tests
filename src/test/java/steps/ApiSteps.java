@@ -1,6 +1,6 @@
 package steps;
 
-import Rest.RestCalls;
+import rest.RestCalls;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -29,4 +29,15 @@ public class ApiSteps {
         assertEquals("Response did not match expected", expected , response);
     }
 
+    public void addProduct(String name, double price) {
+        response = restCall.addProduct(name, price);
+    }
+
+    public String getProductId(String name) {
+        restCall.getProductDetails(name);
+        return "";
+    }
+
+    public void deleteProduct(Object productId) {
+    }
 }
