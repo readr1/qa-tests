@@ -9,7 +9,6 @@ import java.util.logging.Logger;
 
 public class ApiStepDefs {
 
-
     private static final Logger LOGGER = Logger.getLogger(ApiStepDefs.class.getName());
 
     @Steps
@@ -41,26 +40,29 @@ public class ApiStepDefs {
 
     @And("I see the product is visible when I view all products")
     public void iSeeTheProductIsVisibleWhenIViewAllProducts() {
+        apiSteps.checkForProduct();
     }
 
-    @When("I request the products details using its product {string}")
-    public void iRequestTheProductsDetailsUsingItsProductCode(String id) {
+    @When("I update the product {string} to have a price of {string}")
+    public void iUpdateTheProductToHaveAPriceOf(String name, String price) {
+        apiSteps.updateProduct(apiSteps.getProductId(), name, Double.parseDouble(price));
     }
 
-    @Then("I receive the details of the product")
-    public void iReceiveTheDetailsOfTheProduct() {
-    }
-
-    @Then("I receive the details of the product and can see the {string} is now {string}")
-    public void iReceiveTheDetailsOfTheProductAndCanSeeTheTypeIsNowValue(String type, String value) {
-    }
-
-    @When("I delete the products using its product {string}")
-    public void iDeleteTheProductsUsingItsProductCode(String code) {
+    @Then("I can see the product has a new {string} and {string}")
+    public void iCanSeeTheProductHasANewNameAndPrice(String name, String price) {
+        apiSteps.checkForProduct(name);
     }
 
     @Then("I see the product is not visible when I view all products")
     public void iSeeTheProductIsNotVisibleWhenIViewAllProducts() {
+        apiSteps.checkForProductIsMissing();
+    }
+
+    @When("I delete the product")
+    public void iDeleteTheProduct() {
+        apiSteps.deleteProduct(
+                apiSteps.getProductId()
+        );
     }
 
     @When("I delete the product {string}")
@@ -69,5 +71,6 @@ public class ApiStepDefs {
                 apiSteps.getProductId(name)
         );
     }
+
 }
 
