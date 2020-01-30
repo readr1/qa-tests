@@ -10,36 +10,35 @@ Feature: API technical tests
   @getProduct @cleanUp
   Scenario Outline: Create and Get a product
     Given I have access to the Sensyne test API
-    And I add a new product with a "<name>" and "<price>"
-    And I see the product is visible when I view all products
-    When I request the products details using its product "<id>"
-    Then I receive the details of the product
-    #This needs an after step to clear itself down
+    When I add a new product with a "<name>" and "<price>"
+    Then I see the product is visible when I view all products
+    And I delete the product
+
     Examples:
-      | id | name | price |
-      | 10 | Mug  | 9.99  |
+      | name | price |
+      | Mug  | 9.99  |
+
   @updateProduct @cleanUp
   Scenario Outline: Create and update a product
     Given I have access to the Sensyne test API
     And I add a new product with a "<name>" and "<price>"
     And I see the product is visible when I view all products
-    When I request the products details using its product <code>
-    Then I receive the details of the product and can see the <type> is now <value>
-        #This needs an after step to clear itself down
+    When I update the product "<newName>" to have a price of "<newPrice>"
+    Then I can see the product has a new "<newName>" and "<newPrice>"
+    And I delete the product "<newName>"
+
     Examples:
-    | id | name | price | type | value |
+    | name  | price | newName | newPrice |
+    | glass | 2.99  | glasses | 3.99     |
 
   @deleteProduct
   Scenario Outline: Create and Delete a product
     Given I have access to the Sensyne test API
     And I add a new product with a "<name>" and "<price>"
     And I see the product is visible when I view all products
-    When I delete the product "<name>"
+    When I delete the product
     Then I see the product is not visible when I view all products
+
     Examples:
       | name | price |
       | Cup  | 9.99  |
-
-
-
-
