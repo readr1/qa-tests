@@ -1,6 +1,5 @@
 package stepDefs;
 
-
 import io.cucumber.java.en.*;
 import net.thucydides.core.annotations.Steps;
 import steps.ApiSteps;
@@ -51,6 +50,7 @@ public class ApiStepDefs {
     @Then("I can see the product has a new {string} and {string}")
     public void iCanSeeTheProductHasANewNameAndPrice(String name, String price) {
         apiSteps.checkForProduct(name);
+        apiSteps.checkForProductWithPrice(price);
     }
 
     @Then("I see the product is not visible when I view all products")
@@ -60,6 +60,7 @@ public class ApiStepDefs {
 
     @When("I delete the product")
     public void iDeleteTheProduct() {
+        LOGGER.info("deleting product");
         apiSteps.deleteProduct(
                 apiSteps.getProductId()
         );
@@ -67,6 +68,7 @@ public class ApiStepDefs {
 
     @When("I delete the product {string}")
     public void iDeleteTheProduct(String name) {
+        LOGGER.info(String.format("deleting product: %s", name));
         apiSteps.deleteProduct(
                 apiSteps.getProductId(name)
         );

@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ed00c7-2a32-42ef-8c61-e68bfc7bd804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0143bd7afd63cfeeb61e95ca13eb19f42251566b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/RestCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/RestCalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/ApiStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ApiStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ApiTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ApiTests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/RestCalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/RestCalls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ApiTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/ApiTests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ApiStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefs/ApiStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +71,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: ApiTests">
+  <component name="RunManager" selected="Cucumber java.Scenario: Create and Delete a product">
     <configuration name="Feature: ApiTests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiTests.feature" />
@@ -191,10 +181,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Get all products" />
-        <item itemvalue="Cucumber java.Scenario: Create and update a product" />
         <item itemvalue="Cucumber java.Scenario: Create and Delete a product" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber java.Scenario: Get all products" />
+        <item itemvalue="Cucumber java.Scenario: Create and update a product" />
       </list>
     </recent_temporary>
   </component>
@@ -246,26 +236,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="497" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1580427872689" />
-    <state width="1253" height="181" key="GridCell.Tab.0.bottom" timestamp="1580428409431">
+    <state width="1253" height="181" key="GridCell.Tab.0.bottom" timestamp="1580428592181">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1809" height="288" key="GridCell.Tab.0.bottom/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
-    <state width="1253" height="181" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580428409431" />
-    <state width="1253" height="181" key="GridCell.Tab.0.center" timestamp="1580428409431">
+    <state width="1253" height="181" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580428592181" />
+    <state width="1253" height="181" key="GridCell.Tab.0.center" timestamp="1580428592180">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1809" height="288" key="GridCell.Tab.0.center/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
-    <state width="1253" height="181" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580428409431" />
-    <state width="1253" height="181" key="GridCell.Tab.0.left" timestamp="1580428409430">
+    <state width="1253" height="181" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580428592180" />
+    <state width="1253" height="181" key="GridCell.Tab.0.left" timestamp="1580428592180">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1809" height="288" key="GridCell.Tab.0.left/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
-    <state width="1253" height="181" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580428409430" />
-    <state width="1253" height="181" key="GridCell.Tab.0.right" timestamp="1580428409431">
+    <state width="1253" height="181" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580428592180" />
+    <state width="1253" height="181" key="GridCell.Tab.0.right" timestamp="1580428592181">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1809" height="288" key="GridCell.Tab.0.right/0.1080.1920.1080/65.24.1855.1056@65.24.1855.1056" timestamp="1580337891032" />
-    <state width="1253" height="181" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580428409431" />
+    <state width="1253" height="181" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580428592181" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1580427892418">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

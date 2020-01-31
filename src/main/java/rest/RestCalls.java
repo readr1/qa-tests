@@ -1,8 +1,6 @@
 package rest;
 
 import com.google.gson.JsonObject;
-import groovy.json.JsonBuilder;
-import org.openqa.selenium.json.Json;
 
 import java.util.LinkedHashMap;
 import java.util.List;

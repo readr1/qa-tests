@@ -64,12 +64,16 @@ public class ApiSteps {
         assertTrue(restCall.isProductPresentWithName(name));
     }
 
-    public void checkForProductIsMissing() {
-        assertFalse(restCall.isProductPresentWithPrice(activeProductName));
+    public void checkForProductWithPrice(String price) {
+        assertTrue(restCall.isProductPresentWithPrice(price));
     }
 
 
     public void updateProduct(String productId, String name, double price) {
         restCall.updateProduct(productId, name, price);
+    }
+
+    public void checkForProductIsMissing() {
+        assertFalse(restCall.isProductPresentWithPrice(activeProductName));
     }
 }
